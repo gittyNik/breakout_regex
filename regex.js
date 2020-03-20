@@ -1,9 +1,10 @@
 // exec()
 
-console.log(/(ab)*c/.exec("ababc"));
-console.log(/\b[a-zA-Z]+\.[a-zA-Z]+@[a-zA-Z]+\b/i.exec("a.a@a")); // email regex validator
+let emailValidator = /[^(\s\d)]+@[a-zA-Z]+\.[a-zA-Z]+/
+
+console.log(emailValidator.exec("my email id is niskarsh@soal.io"));
 
 // test()
 
-console.log(/ab*c/i.test("abBcd")); // case insensitive flag
-console.log(/\b[a-zA-Z]+\.[a-zA-Z]+@[a-zA-Z]+\b/i.test("a.a@a"));
+// console.log(/ab*c/i.test("abBcd")); // case insensitive flag
+// console.log(/\b[a-zA-Z]+\.[a-zA-Z]+@[a-zA-Z]+\b/i.test("a.a@a"));
