@@ -1,3 +1,5 @@
+// Visit https://regex101.com/r/cO8lqs/25 for online regex simulator
+
 // exec()
 
 let emailValidator = /[^(\s\d)]+@[a-zA-Z]+\.[a-zA-Z]+/
